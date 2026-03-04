@@ -19,10 +19,10 @@ export default class LoginPage {
   }
 
   getusernamefieldlocator = (): Locator =>
-    this.page.locator('input[placeholder="Username"]');
+    this.page.locator('input[placeholder="username"]');
 
   getpasswordfieldlocator = (): Locator =>
-    this.page.locator('input[placeholder="Password"]');
+    this.page.locator('input[placeholder="password"]');
 
   getsigninbuttonlocator = (): Locator => this.page.getByRole('button', { name: 'Login' });
 
