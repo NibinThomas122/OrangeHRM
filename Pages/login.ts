@@ -14,8 +14,8 @@ export default class LoginPage {
     this.page = page;
     const env = environment;
     this.baseUrl = config[env].baseUrl;
-    this.username = config[env].username;
-    this.password = config[env].password;
+    this.username = config[env].Username;
+    this.password = config[env].Password;
   }
 
   getusernamefieldlocator = (): Locator =>
